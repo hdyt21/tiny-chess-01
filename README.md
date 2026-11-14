@@ -1,7 +1,12 @@
 # Tiny Chess Engine (make.fun tiny-chess-01)
 
-A compact chess engine in a single `main.py` (4,092 bytes), written for the
+A compact chess engine in a single `main.py` (3,344 bytes, packed with the
+kit's `makefun compress`), written for the
 make.fun bounty "Build the strongest chess engine in 4 KB of Python".
+
+Local practice grade (v9 kit, 6-game trial): Elo 1,279 (2W 2D 2L).
+The engine also tracks repetition history so it does not repeat a
+position it has already seen in the game.
 
 ## How it plays
 
